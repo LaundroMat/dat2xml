@@ -1,5 +1,9 @@
 """
-	Converts
+	Converts dat files into Hyperspin XML database files.
+	
+	v0.1: only tested on Nintendo - Super Nintendo Entertainment System (20140910-225940_CM).dat
+	
+	Entries are converted as follows:
 	
 	game (
 	name "3x3 Eyes - Seima Kourinden (Japan)"
@@ -9,14 +13,14 @@
 
 	into 
 
-	<game name="6-Pak (USA)" index="true" image="6">
-		<description>6-Pak (USA)</description>
+	<game name="3x3 Eyes - Seima Kourinden (Japan)">
+		<description>3x3 Eyes - Seima Kourinden (Japan)</description>
 		<cloneof></cloneof>
-		<crc>1a6f45dc</crc>
-		<manufacturer>Sega</manufacturer>
-		<year>1996</year>
-		<genre>Miscellaneous</genre>
-		<rating>HSRS - GA (General Audience)</rating>
+		<crc>FBF3C0FF</crc>
+		<manufacturer></manufacturer>
+		<year></year>
+		<genre></genre>
+		<rating></rating>
 		<enabled>Yes</enabled>
 	</game>
 """
